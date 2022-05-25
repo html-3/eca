@@ -5,5 +5,10 @@ Este repositório está subdividido pelas cadeiras da UFRJ, veja no índice qual
 - Circuitos em Corrente Contínua = `ccc`
 - Sistemas Digitais = `sd`
 
+## Grade
+
+![Grade ECA](./gradeca.drawio.svg#gh-light-mode-only)
+![Grade ECA](./gradeca-dark.drawio.svg#gh-dark-mode-only)
+###### Ultima atualizacao: 25 de maio de 2022
 
 
