@@ -1,3 +1,17 @@
+---
+title: Engenharia de Controle e Automação
+---
+
+## O quê é ECA?
+Engenharia de Controle e Automação é um curso de engenharia o qual busca automatizar processos pelo estudo de eletrônica, teoria de controle e computação. 
+
+## Avaliação de docentes
+(Futuramente... ) Aqui será possível avaliar os docentes com quens você teve aula. Ajude futuros alunos a se prepararem e informe-se sobre o que vem adiante na sua graduação!
+
+
+## Índice
+{:toc}
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/html-3/eca/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
