@@ -1,6 +1,12 @@
 ---
 title: Sistemas Digitais - P1 Gabarito
 ---
+
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
 ## Questão 1
 ### a) Determine a tensão $V$ e a corrente $I$ do seguinte circuito
 

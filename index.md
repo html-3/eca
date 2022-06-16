@@ -10,7 +10,12 @@ Engenharia de Controle e Automação é um curso de engenharia o qual busca auto
 
 
 ## Índice
+* TOC
 {:toc}
+
+<nav aria-label="Table of Contents">
+    {{ content | toc_only }}
+</nav>
 
 ## Welcome to GitHub Pages
 
