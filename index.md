@@ -10,12 +10,9 @@ Engenharia de Controle e Automação é um curso de engenharia o qual busca auto
 
 
 ## Índice
-* TOC
-{:toc}
-
-<nav aria-label="Table of Contents">
-    {{ content | toc_only }}
-</nav>
+- Gabaritos
+    - [Sistemas Digitais - P1 2022.1](https://html-3.github.io/eca/sd-p1-20221)
+    - [Eletrônica I - P1 2022.1](https://html-3.github.io/eca/ele1-p1-20221)
 
 ## Welcome to GitHub Pages
 
