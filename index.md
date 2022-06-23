@@ -14,6 +14,7 @@ Você gostaria que o CAECA existisse?
     - [Eletrônica I - P1 2022.1](https://html-3.github.io/eca/exams/ele1-p1-20221)
 - Utilidades
     - [Contatos da coordenação](https://html-3.github.io/eca/utils/contact)
+    - [Calendário 2022](https://html-3.github.io/eca/utils/calendar)
 
 
 ## Links úteis
