@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 markdown: kramdown
 title: Engenharia de Controle e Automação
-url: "https://html-3.github.io/eca" 
+url: "https://html-3.github.io/eca"
+image: /assets/image.png
 plugins:
   - jekyll-sitemap
