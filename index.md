@@ -9,7 +9,7 @@ Engenharia de Controle e Automação é um curso de engenharia o qual busca auto
 ## ChurrECA?
 Sem _updates_. Contate [Luisa](https://wa.me//5521968130985) para mais info.
 
-## Cofraria Acadêmica da Engenharia de Controle e Automação
+## Confraria Acadêmica da ECA
 Você gostaria que o CAECA existisse?
 
 ## Índice
@@ -20,6 +20,7 @@ Você gostaria que o CAECA existisse?
     - [Contatos da coordenação](https://html-3.github.io/eca/utils/contact)
     - [Calendário 2022](https://html-3.github.io/eca/utils/calendar)
     - [Grade Curricular](https://html-3.github.io/eca/utils/curriculum)
+    - [MATLAB](https://html-3.github.io/eca/utils/matlab)
 - [Livraria virtual](https://html-3.github.io/eca/library)
 
 
