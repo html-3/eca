@@ -9,17 +9,22 @@ a:link {
     color: #00933F;
   }
   
-  /* visited link */
-  a:visited {
-    color: #00933F;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #00933F;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #00933F;
-  }
+/* visited link */
+a:visited {
+  color: #00933F;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00933F;
+}
+
+/* selected link */
+a:active {
+  color: #00933F;
+}
+
+/* github banner */
+#forkme_banner {
+  background: #00933F;
+}
