@@ -1,6 +1,6 @@
 ---
-title: HubECA
-description: O lar de tudo que você vai precisar para sobreviver a graduação na UFRJ.
+title: HubECA - UFRJ
+description: O lar de tudo que você vai precisar para sobreviver a graduação.
 ---
 
 ## O quê é ECA?
