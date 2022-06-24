@@ -15,7 +15,7 @@ description: Tenha acesso a mais popular e importante ferramenta de engenharia.
 ## Guia
 1. Descarregar arquivo ZIP no seu computador.
 2. Abrir o ZIP.
-3. Executar `setup.ex`.
+3. Executar `setup.exe`.
 4. Selecionar `I have a File Installation Key` no menu `Advanced Options` no canto superior esquerdo.
 5. Inserir `09806-07443-53955-64350-21751-41297` a chave caso peça pela chave de instalação `Enter File Installation Key`.
 6. Selecione o arquivo `license.lic` quando pedir a lisença `Select License File`.
