@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 
+
 /* unvisited link */
 a:link {
     color: #00933F;
@@ -26,5 +27,34 @@ a:active {
 
 /* github banner */
 #forkme_banner {
-  background: #00933F;
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #00933F no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+body {
+  box-sizing: border-box;
+  color:#373737;
+  background: #212121;
+  font-size: 16px;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-weight: 700;
+  color:#222222;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  letter-spacing: -1px;
 }
