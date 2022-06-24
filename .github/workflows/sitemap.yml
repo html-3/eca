@@ -20,7 +20,7 @@ jobs:
       with:
         base-url-path: https://html-3.github.io/eca/
         include-pdf: false
-        sitemap-format: txt
+        sitemap-format: xml
 
     - name: Output stats
       run: |
