@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 markdown: kramdown
 title: Engenharia de Controle e Automação
+name: ECA
 url: "https://html-3.github.io/eca"
 locale: pt_BR
 lang: pt-br
