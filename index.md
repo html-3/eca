@@ -1,9 +1,13 @@
 ---
-title: Engenharia de Controle e Automação
+title: HubECA
+description: O lar de tudo que você vai precisar para sobreviver a graduação.
 ---
 
 ## O quê é ECA?
 Engenharia de Controle e Automação é um curso de engenharia o qual busca automatizar processos pelo estudo de eletrônica, teoria de controle e computação. 
+
+## ChurrECA?
+Sem _updates_. Contate [Luisa](https://wa.me//5521968130985) para mais info.
 
 ## Cofraria Acadêmica da Engenharia de Controle e Automação
 Você gostaria que o CAECA existisse?
@@ -15,6 +19,8 @@ Você gostaria que o CAECA existisse?
 - Utilidades
     - [Contatos da coordenação](https://html-3.github.io/eca/utils/contact)
     - [Calendário 2022](https://html-3.github.io/eca/utils/calendar)
+    - [Grade Curricular](https://html-3.github.io/eca/utils/curriculum)
+- [Livraria virtual](https://html-3.github.io/eca/library)
 
 
 ## Links úteis
