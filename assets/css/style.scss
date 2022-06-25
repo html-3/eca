@@ -58,3 +58,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Ubuntu, "times new roman", times, roman, serif;
   letter-spacing: -1px;
 }
+
+iframe {
+  display: block;
+  border-style:none;
+}
+
+.waffle, .grid-fixed-table tr th {
+  font-size: 13px;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-style: hidden;
+  width: 100%;
+  cursor: default;
+}
