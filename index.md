@@ -22,7 +22,7 @@ Você gostaria que o CAECA existisse?
     - [Grade Curricular](https://html-3.github.io/eca/utils/curriculum)
     - [MATLAB](https://html-3.github.io/eca/utils/matlab)
     - [Confrarias Oficiais da Politécnica](https://html-3.github.io/eca/utils/fraternities)
-- [Livraria virtual](https://html-3.github.io/eca/library)
+- [Biblioteca Digital](https://html-3.github.io/eca/library)
 
 
 ## Links úteis
