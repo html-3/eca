@@ -16,7 +16,7 @@ description: Acesse livros texto, solucionários, resumos, apostilas e mais!
 ## Química
 
 ## Álgebra Linear
-<a href="https://raw.githubusercontent.com/html-3/eca/main/alglin/alglin-goldfeld3.pdf" target="_blank">GOLDFELD, Paulo e col. Curso de Álgebra Linear - Fundamentos e Aplicações, 4° edição em português.</a>
+<a href="https://raw.githubusercontent.com/html-3/eca/main/alglin/alglin-goldfeld3.pdf" target="_blank">GOLDFELD, Paulo e col. Curso de Álgebra Linear - Fundamentos e Aplicações, 3° edição em português.</a>
 
 ## Economia
 <a href="https://raw.githubusercontent.com/html-3/eca/main/econ/econ-blanchard5.pdf" target="_blank">BLANCHARD, Olivier e col. Macroeconomia, 5° edição em português.</a>
