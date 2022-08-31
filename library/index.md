@@ -14,6 +14,7 @@ description: Acesse livros texto, solucionários, resumos, apostilas e mais!
 ## Estatística
 
 ## Química
+<a href="https://raw.githubusercontent.com/html-3/eca/main/quim/quim-atkins3.pdf" target="_blank">ATKINS, Peter W. e col. Química Inorgânica, 3° edição em português.</a>
 
 ## Álgebra Linear
 <a href="https://raw.githubusercontent.com/html-3/eca/main/alglin/alglin-goldfeld3.pdf" target="_blank">GOLDFELD, Paulo e col. Curso de Álgebra Linear - Fundamentos e Aplicações, 3° edição em português.</a>
