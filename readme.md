@@ -37,6 +37,12 @@ Este repositório está subdividido pelas cadeiras da UFRJ, veja no índice qual
 - Engenharia e Meio Ambiente = `ema`
 - Processos de Fabricação = `profab`
 ### Sexto Período
+- Controle Realimentado = `conreal`
+- Eletrônica II = `ele2`
+- Laboratório de Eletrônica I = `labele1`
+- Controle e Instrumentação de Processos = `cip`
+- Redes de Computadores = `redcomp`
+- Introducao à Otimização = `oti`
 ### Sétimo Período
 ### Oitavo Período
 ### Nono Período
@@ -46,6 +52,6 @@ Este repositório está subdividido pelas cadeiras da UFRJ, veja no índice qual
 
 ![Grade ECA](./gradeca.drawio.svg#gh-light-mode-only)
 ![Grade ECA](./gradeca-dark.drawio.svg#gh-dark-mode-only)
-###### Última atualização: 25 de maio de 2022
+###### Última atualização: 31 de agosto de 2022
 
 
