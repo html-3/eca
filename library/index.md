@@ -24,7 +24,7 @@ description: Acesse livros texto, solucionários, resumos, apostilas e mais!
 
 <a href="https://raw.githubusercontent.com/html-3/eca/main/econ/econ-blanchard5esp.pdf" target="_blank">BLANCHARD, Olivier e col. Macroeconomia, 5° edição em espanhol.</a>
 
-<a href="https://raw.githubusercontent.com/html-3/eca/main/econ/econ-blanchard5europa.pdf" target="_blank">BLANCHARD, Olivier e col. Macroeconomia, 5° edição em português.</a>
+<a href="https://raw.githubusercontent.com/html-3/eca/main/econ/econ-blanchard5europa.pdf" target="_blank">BLANCHARD, Olivier e col. Macroeconomia - Uma perspectiva europeia, 1° edição em português.</a>
 
 <a href="https://raw.githubusercontent.com/html-3/eca/main/econ/econ-varian9.pdf" target="_blank">VARIAN, Hal R. Microeconomia, uma abordagem moderna, 9° edição em português.</a>
 
