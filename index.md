@@ -13,9 +13,7 @@ Sem _updates_. Contate [Luisa](https://wa.me//5521968130985) para mais info.
 Você gostaria que o CAECA existisse?
 
 ## Índice
-- Provas comentadas
-    - [Sistemas Digitais - P1 2022.1](https://html-3.github.io/eca/exams/sd-p1-20221)
-    - [Eletrônica I - P1 2022.1](https://html-3.github.io/eca/exams/ele1-p1-20221)
+- [Provas comentadas](https://html-3.github.io/eca/exams)
 - Utilidades
     - [Contatos da coordenação](https://html-3.github.io/eca/utils/contact)
     - [Calendário 2022](https://html-3.github.io/eca/utils/calendar)
