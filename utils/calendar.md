@@ -14,3 +14,12 @@ document.write ("Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " 
 - Último dia para trancamento : 21 de junho
 - Último dia para pedido no SisReq : 4 de julho
 - Final do período : 6 de agosto
+
+## 2022.2
+- Primeiro dia para inscrição de disciplinas : 11 de agosto
+- Último dia para inscrição de disciplinas : 22 de agosto
+- Primeiro dia para alteração de disciplinas : 29 de agosto
+- Último dia para alteração de disciplinas : 12 de setembro
+- Último dia para trancamento : 17 de novembro
+- Último dia para pedido no SisReq : -
+- Final do período : 14 de janeiro
