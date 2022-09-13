@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-us' }}">
-
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,maximum-scale=2" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ '/assets/favicon.ico?v=' | append: site.github.build_revision | relative_url }}" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
 
     {% seo %}
-    <meta property="og:image" content="https://github.com/html-3/eca/blob/gh-pages/assets/image.png">
+    <meta
+      property="og:image"
+      content="https://github.com/html-3/eca/blob/gh-pages/assets/image.png" />
 
     {% include head-custom.html %}
 
@@ -17,44 +25,76 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
 
     <!-- Mathjax Support -->
-    <script type="text/javascript" async
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
+    <script
+      type="text/javascript"
+      async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
     <!-- JS Date Script -->
-    <script language=javascript type="text/javascript">
-    dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
-    monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro")
-    now = new Date
+    <script language="javascript" type="text/javascript">
+      dayName = new Array('domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado')
+      monName = new Array(
+        'janeiro',
+        'fevereiro',
+        'março',
+        'abril',
+        'maio',
+        'junho',
+        'agosto',
+        'outubro',
+        'novembro',
+        'dezembro'
+      )
+      now = new Date()
     </script>
   </head>
 
   <body>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          {% endif %}
+      <header class="inner">
+        {% if site.github.is_project_page %}
+        <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+        {% endif %}
 
-          <h1 id="project_title">{{ page.title | default: site.title }}</h1>
-          <h2 id="project_tagline">{{ page.description | default: site.github.project_tagline }}</h2>
+        <h1 id="project_title">{{ page.title | default: site.title }}</h1>
+        <h2 id="project_tagline">{{ page.description | default: site.github.project_tagline }}</h2>
 
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
-        </header>
+        {% if site.show_downloads %}
+        <section id="downloads">
+          <a class="zip_download_link" href="{{ site.github.zip_url }}"
+            >Download this project as a .zip file</a
+          >
+          <a class="tar_download_link" href="{{ site.github.tar_url }}"
+            >Download this project as a tar.gz file</a
+          >
+        </section>
+        {% endif %}
+      </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
+      {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+{% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
+{% assign previous="" %}
+<ol>
+ {% if num_parts == "0" or num_parts == "-1" %}
+  <li><a href="/">home</a> &nbsp; </li>
+ {% else %}
+  <li><a href="/">home</a> &#187; </li>
+
+  {% for unused in page.content limit:num_parts %}
+   {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
+   {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
+
+   <li><a href="{{previous}}">{{ first_word }}</a> &#187; </li>
+
+   {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
+  {% endfor %}
+ {% endif %}
+</ol>
+      <section id="main_content" class="inner">{{ content }}</section>
     </div>
 
     <!-- FOOTER  -->
@@ -62,7 +102,10 @@
       <footer class="inner">
         <a style="text-decoration: none" href="https://html-3.github.io/eca/utils/survey">🪑</a>
         {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} mantido por <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p class="copyright">
+          {{ site.title | default: site.github.repository_name }} mantido por
+          <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+        </p>
         {% endif %}
         <p>Publicado com <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
